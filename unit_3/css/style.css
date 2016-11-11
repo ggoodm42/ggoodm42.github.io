@@ -1,15 +1,26 @@
-body{
-	text-align: center;
-	background-color: lightblue;
-}
-.important{
-	text-shadow: 55px;
-	text-transform: capitalize;
-	font-size: 18px;
-	color: red;
+* { margin:0; padding:0; box-sizing:border-box; }
+section {
+    padding: 5em 0;
 }
 h1, h3{
 	font-family:  arial, sans-serif;
 	text-transform: uppercase;
-
-
+}
+#splash{
+	text-align: center;
+	background: url(../images/WallyDigital_2a.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding: 10em 0 0;
+	height: 80vh;
+}
+.purple {
+	background:purple;
+	color:#fff;
+}
+.important{
+	text-shadow: 5px 5px 5px rgba(0,0,0,.2);
+	text-transform: capitalize;
+	font-size: 18px;
+	color: red;
+}
