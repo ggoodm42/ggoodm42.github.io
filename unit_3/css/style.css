@@ -1,0 +1,15 @@
+body{
+	text-align: center;
+	background-color: lightblue;
+}
+.important{
+	text-shadow: 55px;
+	text-transform: capitalize;
+	font-size: 18px;
+	color: red;
+}
+h1, h3{
+	font-family:  arial, sans-serif;
+	text-transform: uppercase;
+
+
