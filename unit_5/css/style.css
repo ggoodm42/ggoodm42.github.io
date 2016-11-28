@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
 </style>
 * { margin:0; padding: 0; box-sizing:border-box; }
+
 section {
     padding: 5em 0;
 }
@@ -10,12 +11,53 @@ h1, h2, h3{
 	text-transform: uppercase;
 	text-align: center;
 }
+
 p{
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 18px;
 }
 
+header {
 
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#text {
+	background-color: #FFC675;
+	border: 1px black solid;
+	padding: 20px;
+}
+#slider {
+	background-color: #E89C6C;
+	border: 1px black solid;
+	padding: 20px;
+}
+div {
+background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+
+}
+
+footer {
+background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#logo{
+
+	display:block;
+	margin:0 auto;
+}
 #splash{
 	text-align: center;
 	background: url(../images/Media.jpg);
@@ -28,6 +70,7 @@ p{
 	background:purple;
 	color:#fff;
 	font-family: 'Cormorant Garamond', serif;
+
 }
 .important{
 	text-shadow: 5px 5px 5px rgba(0,0,0,.2);
@@ -36,23 +79,9 @@ p{
 	color: red;
 	text-align: center;
 }
-.Portfolio{
-
-
-}
-
-.left{
+span{
 	padding-left: 30px;
 	padding-right: 30px;
 }
-.right{
-		padding-left: 30px;
-	    padding-right: 30px;
-}
 	
-
-	
-
-
-
 
