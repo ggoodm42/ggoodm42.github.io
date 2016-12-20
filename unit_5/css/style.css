@@ -11,6 +11,9 @@ h1, h2, h3{
 	text-transform: uppercase;
 	text-align: center;
 }
+h1{
+	font-size: 46px;
+}
 
 p{
 	font-family: 'Cormorant Garamond', serif;
@@ -21,7 +24,7 @@ header {
 
 	background-color: #FFED74;
 	border: 1px black solid;
-	padding: 20px;
+	padding: 10px;
 }
 
 nav {
@@ -37,6 +40,7 @@ a{
 	float: left;
 	padding: 20px;
 }
+
 a:hover{
 	background-color: #aaaaaa;
 }
@@ -54,6 +58,19 @@ a:hover{
 	border: 1px black solid;
 	padding: 20px;
 }
+
+#social {
+	padding: 20px;
+
+
+}
+#social div{
+
+float: right;
+
+}
+
+
 #slider {
 	background-color: #E89C6C;
 	border: 1px black solid;
@@ -123,7 +140,7 @@ background-color: #FF957E;
 
 }
 .important{
-	text-shadow: 5px 5px 5px rgba(0,0,0,.2);
+
 	text-transform: capitalize;
 	font-size: 18px;
 	color: black;
@@ -153,19 +170,20 @@ span{
 	background-color: #ffb7cf;
 	border: 1px black solid;
 	padding: 20px;
+
 }
 
 #left {
-	background-color: violet;
-	border: 1px black solid;
+	background-color: green;
+	border: 5px black solid;
 	padding: 20px;
 	float: left;
-	width: 30%;
+	width: 80%;
 
 }
 
 #right {
-	background-color: pink;
+	background-color: white;
 	border: 1px black solid;
 	padding: 20px;
 	float: right;
@@ -173,7 +191,7 @@ span{
 
 }
 
-.clearfix:after {
+  .clearfix:after {
 	visibility: hidden;
 	display: block;
 	font-size: 0;
@@ -182,10 +200,7 @@ span{
 	height: 0;
 }
 
-section {
-	background-color: lightpink;
 
-}
 
 
 
@@ -195,9 +210,13 @@ section {
 #Contact{
 
 	text-align: center;
-}
 
+}
+#contact {
+
+}
 #wrapper {
 	max-width: 1400px;
 	margin: 0 auto;
+	
 }
