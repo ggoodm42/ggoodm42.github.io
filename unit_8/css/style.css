@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
 
 *{margin:0; padding:0; box-sizing: border-box;}
 
@@ -17,18 +18,18 @@ h1{
 
 p{
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 18px;
+	font-size: 1.125em;
 }
 
 header {
 
-	background-color: #FFED74;
+	background-color: none;
 	border: 1px black solid;
 	padding: 10px;
 }
 
 nav {
-	background-color: #aaaaaa;
+	background-color: #ff7900;
 	font-family: Arial, sans-serif;
 }
 
@@ -42,7 +43,7 @@ a{
 }
 
 a:hover{
-	background-color: #aaaaaa;
+	background-color: #3c38ae;
 }
 .clearfix:after{
 	visibility: hidden;
@@ -70,13 +71,6 @@ float: right;
 
 }
 
-
-#slider {
-	background-color: #E89C6C;
-	border: 1px black solid;
-	padding: 20px;
-	margin: 100px;
-}
 
 #portfolio div {
 background-color: #FFE2B8;
@@ -140,21 +134,29 @@ background-color: #FF957E;
 	background-repeat:no-repeat;
 	background-size:cover;
 	padding: 10em 0 0;
-	height: 80vh;
+	height: 90vh;
+
+}
+
+#splash h1,h2{
+	font-size: 2em;
+	color: white;
+	margin bottom: : 40px;
+	font-family: gloria Hallelujah;
 }
 .intro {
 	background: none;
 	color:black;
 	font-family: 'Cormorant Garamond', serif;
 	text-align: center;
-	font-size: 26px;
+	font-size: 2.2em;
 
 
 }
 .important{
 
 	text-transform: capitalize;
-	font-size: 18px;
+	font-size: 1.5em;
 	color: black;
 	text-align: center;
 }
@@ -175,7 +177,7 @@ span{
 }
 
 #about h2{
-	font-size: 24px;
+	font-size: 1.5em;
 	padding-bottom: 20px;
 
 }
@@ -199,7 +201,7 @@ span{
 
 #right {
 	background-color: green;
-	border: 1px black solid;
+	border: 5px black solid;
 	padding: 39.2px;
 	float: right;
 	width: 50%;
@@ -231,8 +233,9 @@ span{
 
 }
 #wrapper {
-	max-width: 1400px;
+	max-width: 100%;
 	margin: 0 auto;
 	
 }
 @media only screen and(max-width: 760px)
+@media only screen and(max-width: 425px)
